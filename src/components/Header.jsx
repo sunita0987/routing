@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/images/logo1.png";
 
-const Navbar = () => {
+const Header = () => {
   return (
     <nav className="flex items-center justify-between px-5 py-5 shadow-md bg-[#ffffff]">
       <Link to="/" className="flex items-center gap-1">
@@ -57,4 +57,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

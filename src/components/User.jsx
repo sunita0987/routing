@@ -8,7 +8,7 @@ const images = [
   "src/assets/images/4th.png",
 ];
 
-const Post = () => {
+const User = () => {
   return (
     <div className="max-w-5xl mx-auto p-4 mt-10 rounded-xl shadow-md  bg-[#ffffff] flex flex-col sm:flex-row gap-6">
       <div className="flex-1">
@@ -74,4 +74,4 @@ const Post = () => {
   );
 };
 
-export default Post;
+export default User;

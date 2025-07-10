@@ -33,7 +33,7 @@ const ImageUpload = () => {
               {[1, 2].map((event, i) => (
                 <div
                   key={i}
-                  className="w-40 bg-white rounded-xl shadow-sm border p-2"
+                  className="w-40 bg-white rounded-xl shadow-sm  p-2"
                 >
                   <img
                     src={eventImg}
