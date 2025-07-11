@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Images from "../assets/images/2ndsec..png";
 
 import {
   FaCalendarAlt,
@@ -15,7 +16,7 @@ export default function UserName() {
       <div className="text-gray-500 text-sm mb-4"></div>
       <div className="flex flex-col md:flex-row items-start gap-8">
         <img
-          src="src/assets/images/2ndsec..png"
+          src={Images}
           alt="User"
           className="w-100 h-100 rounded-2xl object-cover"
         />

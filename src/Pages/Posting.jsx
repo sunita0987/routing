@@ -1,11 +1,12 @@
 import React from "react";
 import { FaHeart, FaComment } from "react-icons/fa";
 import { FiCalendar } from "react-icons/fi";
+import left from "../assets/images/left.png"; 
 const images = [
-  "src/assets/images/1st.png",
-  "src/assets/images/2nd.png",
-  "src/assets/images/3rd.png",
-  "src/assets/images/4th.png",
+  "../assets/images/1st.png",
+  "../assets/images/2nd.png",
+  "../assets/images/3rd.png",
+  "../assets/images/4th.png",
 ];
 
 const Posting = () => {
@@ -14,7 +15,7 @@ const Posting = () => {
       <div className="flex-1">
         <div className="flex items-center gap-3 mb-3">
           <img
-            src="src/assets/images/left.png"
+            src={left}
             alt="User"
             className="w-10 h-10 rounded-full"
           />

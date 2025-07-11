@@ -1,5 +1,5 @@
 import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
-import React from 'react';
+import React from "react";
 export default function Footer() {
   return (
     <footer className="bg-black text-white py-12 px-4 md:px-20 mt-20">
@@ -10,7 +10,8 @@ export default function Footer() {
             {/* <h2 className="text-xl font-bold text-blue-400">Events<span className="text-cyan-400">Free</span></h2> */}
           </div>
           <p className="text-sm text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            efficitur urna in dictum suscipit.
           </p>
           <div className="flex space-x-4 mt-4 text-lg text-gray-400">
             <FaInstagram className="hover:text-white cursor-pointer" />
@@ -38,12 +39,34 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-2">GALLERY</h3>
           <div className="grid grid-cols-3 gap-2">
-            <img src="src/assets/images/gallery1.png" alt="event" className="w-full h-16 object-cover" />
-            <img src="src/assets/images/gallery2.png" alt="event" className="w-full h-16 object-cover" />
-            <img src="src/assets/images/gallery3.png" alt="event" className="w-full h-16 object-cover" />
-            <img src="src/assets/images/gallery4.png" alt="event" className="w-full h-16 object-cover" />
-            <img src="src/assets/images/gallery5.png" alt="event" className="w-full h-16 object-cover" />
-            <button className="bg-blue-700 text-white text-xs px-2 py-1">Show More</button>
+            <img
+              src="src/assets/images/gallery1.png"
+              alt="event"
+              className="w-full h-16 object-cover"
+            />
+            <img
+              src="src/assets/images/gallery2.png"
+              alt="event"
+              className="w-full h-16 object-cover"
+            />
+            <img
+              src="src/assets/images/gallery3.png"
+              alt="event"
+              className="w-full h-16 object-cover"
+            />
+            <img
+              src="src/assets/images/gallery4.png"
+              alt="event"
+              className="w-full h-16 object-cover"
+            />
+            <img
+              src="src/assets/images/gallery5.png"
+              alt="event"
+              className="w-full h-16 object-cover"
+            />
+            <button className="bg-blue-700 text-white text-xs px-2 py-1">
+              Show More
+            </button>
           </div>
         </div>
       </div>
