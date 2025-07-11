@@ -4,17 +4,18 @@ import "./App.css";
 import Header from "./components/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
-// import UserName from "./Pages/UserName";
+import UserName from "./Pages/UserName";
 import Profile from "./Pages/UserName";
-import Post from "./components/Post";
-import Comment from "./components/Comment";
-import Posting from "./components/Posting";
-import Commented from "./components/Commented";
-import User from "./components/User";
-import Connect from "./components/Connect";
-import Posted from "./components/Posted";
-import PostComment from "./components/PostComment";
+import Comment from "./Pages/Comment";
+import Posting from "./Pages/Posting";
+import Commented from "./Pages/Commented";
+import User from "./Pages/User";
+import Connect from "./Pages/Connect";
+import Posted from "./Pages/Posted";
+import PostComment from "./Pages/PostComment";
 import Footer from "./components/Footer";
+import Events from "./Pages/Events";
+
 
 function App() {
   return (
@@ -22,20 +23,19 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/events" element={<Events />} /> */}
-        {/* <Route path="/feed" element={<Feed />} /> */}
-        {/* <Route path="/Username" element={<UserName />} /> */}
-         <Route path="/profile" element={<Profile />} />
+        <Route path="/events" element={<Home />} />
+        <Route path="/feed" element={<Profile />} />
+        <Route path="/userName" element={<UserName />} />
       </Routes>
-      <Post />
-      <Comment/>
-      <Posting/>
-      <Commented/>
+      <Events />
+      <Comment />
+      <Posting />
+      <Commented />
       <User />
-      <Connect/>
-      <Posted/>
-      <PostComment/>
-      <Footer/>
+      <Connect />
+      <Posted />
+      <PostComment />
+      <Footer />
     </Router>
   );
 }
