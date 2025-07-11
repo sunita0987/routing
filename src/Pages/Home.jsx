@@ -17,7 +17,10 @@ const ImageUpload = () => {
             Home
           </Link>
           &gt;
-          <Link to="/feed" className="hover:underline text-[#000000] opacity-70 ">
+          <Link
+            to="/feed"
+            className="hover:underline text-[#000000] opacity-70 "
+          >
             Feed
           </Link>
           <h2 className="text-3xl font-bold mb-2">Jhone Doe</h2>

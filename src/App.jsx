@@ -4,6 +4,8 @@ import "./App.css";
 import Header from "./components/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
+// import UserName from "./Pages/UserName";
+import Profile from "./Pages/UserName";
 import Post from "./components/Post";
 import Comment from "./components/Comment";
 import Posting from "./components/Posting";
@@ -12,6 +14,7 @@ import User from "./components/User";
 import Connect from "./components/Connect";
 import Posted from "./components/Posted";
 import PostComment from "./components/PostComment";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,9 +22,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/events" element={<events/>} />
-        <Route path="/feed" element={<feed/>} />
-        <Route path="/profile" element={<Profile/>} /> */}
+        {/* <Route path="/events" element={<Events />} /> */}
+        {/* <Route path="/feed" element={<Feed />} /> */}
+        {/* <Route path="/Username" element={<UserName />} /> */}
+         <Route path="/profile" element={<Profile />} />
       </Routes>
       <Post />
       <Comment/>
@@ -31,6 +35,7 @@ function App() {
       <Connect/>
       <Posted/>
       <PostComment/>
+      <Footer/>
     </Router>
   );
 }
