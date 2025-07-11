@@ -1,12 +1,12 @@
 import React from "react";
 import { FaHeart, FaComment } from "react-icons/fa";
 import { FiCalendar } from "react-icons/fi";
-import left from "../assets/images/left.png";
+import left from "src/assets/images/left.png";
 const images = [
-  "../assets/images/1st.png",
-  "../assets/images/2nd.png",
-  "../assets/images/3rd.png",
-  "../assets/images/4th.png",
+  "src/assets/images/1st.png",
+  "src/assets/images/2nd.png",
+  "src/assets/images/3rd.png",
+  "src/assets/images/4th.png",
 ];
 
 const Post = () => {
